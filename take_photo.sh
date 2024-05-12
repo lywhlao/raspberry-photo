@@ -1,0 +1,1 @@
+rpicam-jpeg -o test.jpg
