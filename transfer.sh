@@ -1,6 +1,6 @@
 # 定义源文件夹和目标IP
 source_folder="/home/pi"
-destination_ip="100.100.133.23"
+destination_ip="121.40.137.191"
 
 # 查找以.jpe结尾的文件
 files=$(find "$source_folder" -type f -name "*.jpg")
