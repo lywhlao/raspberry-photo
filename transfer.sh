@@ -8,7 +8,7 @@ files=$(find "$source_folder" -type f -name "*.jpg")
 # 循环处理每个找到的文件
 for file in $files; do
     # 通过scp传输文件到目标机器
-    scp "$file" root@$destination_ip:/usr/share/nginx/html
+    scp "$file" root@$destination_ip:/usr/share/nginx/html/image
 
     # 检查传输是否成功
     if [ $? -eq 0 ]; then
